@@ -10,8 +10,8 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #43d1af;
-  --color-secondary: #ff2200;
+  --color-primary: #1ac4ff;
+  --color-secondary:  rgb(0, 26, 255);
 }
 
 .btn-primary:hover {
@@ -166,7 +166,7 @@ section {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background: var(--color-secondary);
+  background: var(--color-primary);
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -180,7 +180,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(248, 90, 64, 0.8);
+  background: var(--color-secondary);
   color: #fff;
 }
 
@@ -374,7 +374,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.6);
+    color: #fff;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
