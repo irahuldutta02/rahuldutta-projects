@@ -509,12 +509,11 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: var(--color-primary);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
   }
-
   .navbar a,
   .navbar a:focus {
     display: flex;
@@ -528,21 +527,18 @@ section {
     white-space: nowrap;
     transition: 0.3s;
   }
-
   .navbar a i,
   .navbar a:focus i {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
   }
-
   .navbar a:hover,
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover > a {
     color: #fff;
   }
-
   .navbar .getstarted,
   .navbar .getstarted:focus {
     background: var(--color-primary);
@@ -551,13 +547,11 @@ section {
     margin: 15px;
     color: #fff;
   }
-
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
     background: rgba(0, 131, 116, 0.8);
   }
-
   .navbar .dropdown ul,
   .navbar .dropdown .dropdown ul {
     position: static;
@@ -568,12 +562,10 @@ section {
     background-color: #007466;
     border: 1px solid #006459;
   }
-
   .navbar .dropdown > .dropdown-active,
   .navbar .dropdown .dropdown > .dropdown-active {
     display: block;
   }
-
   .mobile-nav-show {
     color: rgba(255, 255, 255, 0.6);
     font-size: 28px;
@@ -583,7 +575,6 @@ section {
     z-index: 9999;
     margin-right: 10px;
   }
-
   .mobile-nav-hide {
     color: #fff;
     font-size: 32px;
@@ -595,21 +586,11 @@ section {
     top: 20px;
     z-index: 9999;
   }
-
   .mobile-nav-active {
     overflow: hidden;
   }
-
   .mobile-nav-active .navbar {
     right: 0;
-  }
-
-  .mobile-nav-active .navbar:before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 106, 93, 0.8);
-    z-index: 9996;
   }
 }
 
